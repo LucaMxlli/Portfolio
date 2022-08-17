@@ -1,19 +1,16 @@
 <template>
   <header-vue></header-vue>
+  <content-view></content-view>
   <footer-vue></footer-vue>
-</template>
+</template> 
 
 <script>
-
-
-
-
+import ContentView from "./components/layouts/ContentView.vue";
+import FooterVue from "./components/layouts/FooterVue.vue";
 
 export default {
+  components: { ContentView, FooterVue },
   name: "App",
-  components: {
-  
-},
 };
 </script>
 

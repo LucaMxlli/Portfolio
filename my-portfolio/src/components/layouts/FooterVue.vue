@@ -2,24 +2,29 @@
   <footer class="footer bottom bg-dark">
     <div id="symbols">
       <a
-        href="#"
+        href="https://github.com/LucaMxlli"
         id="gitSymbol"
-        class="fa fa-github fs-4 text-decoration-none mx-2"
+        class="fa fa-github fs-4 text-decoration-none mx-2 pt-3 text-white"
       ></a>
       <a
-        href="#"
+        href="https://www.instagram.com/luca_mxlli/"
         id="instaSymbol"
-        class="fa fa-instagram fs-3 text-decoration-none mx-2"
+        class="fa fa-instagram fs-3 text-decoration-none mx-2 text-white"
       ></a>
       <a
-        href="#"
+        href="https://www.linkedin.com/in/luca-malli-013453231/"
         id="linkedinSymbol"
-        class="fa fa-linkedin fs-3 text-decoration-none mx-2"
+        class="fa fa-linkedin fs-3 text-decoration-none mx-2 text-white"
       ></a>
     </div>
   </footer>
 </template>
 
+<script>
+export default {
+  setup() {},
+};
+</script>
 <style>
 footer {
   position: absolute;
@@ -28,28 +33,25 @@ footer {
   height: 50px; /* Height of the footer */
 }
 #gitSymbol {
-  color: black;
   border-radius: 15%;
 }
 #instaSymbol {
-  color: black;
   border-radius: 15%;
 }
 #linkedinSymbol {
-  color: black;
   border-radius: 15%;
 }
 
 #gitSymbol:hover {
   background-color: grey;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 #linkedinSymbol:hover {
   background-color: grey;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 #instaSymbol:hover {
   background-color: grey;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 </style>

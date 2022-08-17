@@ -1,11 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-    <span class="text-white fs-2 text mx-3">Luca Malli</span>
+    <img id="img" src="../../assets/test.png" class="mx-4" alt="">
+    <span class="text-white fs-3 text mx-1">Luca Malli</span>
 
     <button
       class="navbar-toggler bg-light"
       type="button"
-      data-toggle="collapse"
+      data-toggle="collapse" 
       data-target="#navbarNav"
       aria-controls="navbarNav"
       aria-expanded="false"
@@ -32,7 +33,11 @@
 <style >
 .nav-item:hover {
   background: grey !important;
-  transition: 0.5s;
+  transition: 0.3s;
+}
+#img{
+    width: 50px;
+    height: 30px;
 }
 .nav-item{
      border-radius: 15%;
