@@ -1,20 +1,28 @@
 <template>
   <header-vue></header-vue>
   <content-view></content-view>
+  <div id="nameModel">
+    <h1 id="name">Luca Malli</h1>
+    <model-view id="model"></model-view>
+  </div>
   <footer-vue></footer-vue>
 </template> 
 
 <script>
-import ContentView from "./components/layouts/ContentView.vue";
+import ModelView from "./components/layouts/ModelView.vue";
 import FooterVue from "./components/layouts/FooterVue.vue";
+import ContentView from "./components/content/ContentView.vue";
 
 export default {
-  components: { ContentView, FooterVue },
+  components: { ModelView, FooterVue, ContentView },
   name: "App",
 };
 </script>
 
 <style>
+h1{
+  color: #ffd54e;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,5 +30,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#name {
+  float: inline-start;
+}
+#model {
+  float: inline-start;
+}
+#nameModel{
+  justify-content:;
 }
 </style>
