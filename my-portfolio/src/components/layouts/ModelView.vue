@@ -25,7 +25,8 @@
           ref="box"
           id="box"
           @load="onReady"
-        />++
+        />
+        <!-- This work is based on "Baby Yoda (Grogu)" (https://sketchfab.com/3d-models/baby-yoda-grogu-485192995fea4845a92b3fd92b8b188e) by mister dude (https://sketchfab.com/misterdude) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/) -->
       </Scene>
     </Renderer>
   </div>
