@@ -20,7 +20,7 @@
           <a class="nav-link text-white mx-2" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white mx-2" href="#">School</a>
+          <a class="nav-link text-white mx-2" href="">School</a>
         </li>
         <li class="nav-item">
           <a class="nav-link link-light mx-2" href="#">Projects</a>
@@ -40,7 +40,7 @@
     height: 30px;
 }
 .nav-item{
-     border-radius: 15%;
+     border-radius: 2rem;
 }
 nav{
   background-color: #030012 !important;

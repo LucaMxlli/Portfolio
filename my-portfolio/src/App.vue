@@ -17,9 +17,7 @@ export default {
 </script>
 
 <style>
-h1 {
-  color: #ffd54e;
-}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,13 +26,7 @@ h1 {
   color: #2c3e50;
   margin-top: 60px;
 }
-#name {
-  float: inline-start;
-}
-#model {
-  float: inline-start;
-}
-#nameModel {
-  justify-content: ;
-}
+
+
+
 </style>

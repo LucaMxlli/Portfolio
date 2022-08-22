@@ -1,21 +1,21 @@
 <template>
   <div>
     <div class="container">
-      <p id="name">Luca Malli</p>
+      <p id="name" class="pb-3">Luca Malli</p>
       <img src="../../assets/star-wars-g133253602_1920.png" id="lightsaber" />
     </div>
+    <about-me></about-me>
   </div>
 </template>
 
+<script>
+import AboutMe from "./AboutMe.vue";
+export default {
+  components: { AboutMe },
+};
+</script>
+
 <style>
-h3,
-p,
-span,
-h2 {
-  color: #ffd54e;
-  z-index: 3;
-  position: relative;
-}
 #name {
   top: 15%;
   left: 50%;
@@ -23,10 +23,9 @@ h2 {
   justify-content: center;
   position: absolute;
   font-size: xx-large;
-  color: white
-  ;
+  color: white;
 }
-#name:hover{
+#name:hover {
   color: aquamarine;
 }
 #lightsaber {
