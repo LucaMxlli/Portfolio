@@ -28,6 +28,9 @@ export default {
 #name:hover {
   color: aquamarine;
 }
+li{
+  color: white;
+}
 #lightsaber {
   width: 100%;
   max-width: 800px;
