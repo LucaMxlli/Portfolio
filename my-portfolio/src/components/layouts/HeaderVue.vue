@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <img id="img" src="../../assets/test.png" class="mx-4" alt="">
     <span class="text-white fs-3 text mx-1">Luca Malli</span>
 
@@ -41,5 +41,8 @@
 }
 .nav-item{
      border-radius: 15%;
+}
+nav{
+  background-color: #030012 !important;
 }
 </style>

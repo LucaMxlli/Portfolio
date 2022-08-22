@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer bottom bg-dark">
+  <footer class="footer bottom" id="bg">
     <div id="symbols">
       <a
         href="https://github.com/LucaMxlli"
@@ -30,6 +30,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  background-color: #0F111A !important;
   height: 50px; /* Height of the footer */
 }
 #gitSymbol {
@@ -54,4 +55,5 @@ footer {
   background-color: grey;
   transition: 0.3s;
 }
+
 </style>

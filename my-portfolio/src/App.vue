@@ -1,10 +1,7 @@
 <template>
   <header-vue></header-vue>
   <content-view></content-view>
-  <div id="nameModel">
-    <h1 id="name">Luca Malli</h1>
-    <model-view id="model"></model-view>
-  </div>
+  <model-view id="model"></model-view>
   <footer-vue></footer-vue>
 </template> 
 
@@ -20,7 +17,7 @@ export default {
 </script>
 
 <style>
-h1{
+h1 {
   color: #ffd54e;
 }
 #app {
@@ -37,7 +34,7 @@ h1{
 #model {
   float: inline-start;
 }
-#nameModel{
-  justify-content:;
+#nameModel {
+  justify-content: ;
 }
 </style>

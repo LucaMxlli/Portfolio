@@ -12,4 +12,4 @@ app.component("header-vue", HeaderVue);
 app.component("footer-vue", FooterVue);
 
 
-app.mount("#app");
+app.mount("#app");11
