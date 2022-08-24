@@ -16,9 +16,6 @@
     </button>
     <div class="collapse navbar-collapse fs-5" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link text-white mx-2" href="#">Home</a>
-        </li>
         <li class="nav-item">
           <a class="nav-link text-white mx-2" href="">School</a>
         </li>

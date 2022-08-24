@@ -1,21 +1,26 @@
 <template>
   <footer class="footer bottom" id="bg">
+    <div id="footerText" class="container">
+      <span class="text-white">Made with </span>
+      <span id="heart" class="text-white">❤</span>
+    </div>
     <div id="symbols">
       <a
         href="https://github.com/LucaMxlli"
         id="gitSymbol"
-        class="fa fa-github fs-4 text-decoration-none mx-2 pt-3 text-white"
+        class="fa fa-github fs-4 text-decoration-none mx-2 pt-3 text-white symbols"
       ></a>
       <a
         href="https://www.instagram.com/luca_mxlli/"
         id="instaSymbol"
-        class="fa fa-instagram fs-3 text-decoration-none mx-2 text-white"
+        class="fa fa-instagram fs-3 text-decoration-none mx-2 text-white symbols"
       ></a>
       <a
         href="https://www.linkedin.com/in/luca-malli-013453231/"
         id="linkedinSymbol"
-        class="fa fa-linkedin fs-3 text-decoration-none mx-2 text-white"
+        class="fa fa-linkedin fs-3 text-decoration-none mx-2 text-white symbols"
       ></a>
+  
     </div>
   </footer>
 </template>
@@ -30,30 +35,15 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #0F111A !important;
-  height: 50px; /* Height of the footer */
-}
-#gitSymbol {
-  border-radius: 15%;
-}
-#instaSymbol {
-  border-radius: 15%;
-}
-#linkedinSymbol {
-  border-radius: 15%;
+  background-color: #030012 !important;
+  background-size: cover;
 }
 
-#gitSymbol:hover {
-  background-color: grey;
-  transition: 0.3s;
+#heart:hover {
+  color: aqua !important;
 }
-#linkedinSymbol:hover {
-  background-color: grey;
-  transition: 0.3s;
-}
-#instaSymbol:hover {
-  background-color: grey;
-  transition: 0.3s;
+.symbols:hover{
+  color: cyan !important
 }
 
 </style>
