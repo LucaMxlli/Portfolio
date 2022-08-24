@@ -5,7 +5,7 @@
       <img src="../../assets/star-wars-g133253602_1920.png" id="lightsaber" />
     </div>
     <about-me></about-me>
-  </div>
+ </div>
 </template>
 
 <script>
@@ -28,7 +28,7 @@ export default {
 #name:hover {
   color: aquamarine;
 }
-li{
+li {
   color: white;
 }
 #lightsaber {

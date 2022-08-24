@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <img id="img" src="../../assets/test.png" class="mx-4" alt="">
-    <span class="text-white fs-3 text mx-1">Luca Malli</span>
+    <span class="text-white fs-3 text mx-1"><a class="nav-link" href="#/">Luca Malli</a></span>
 
     <button
       class="navbar-toggler bg-light"
@@ -17,10 +17,10 @@
     <div class="collapse navbar-collapse fs-5" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-white mx-2" href="">School</a>
+          <a class="nav-link text-white mx-2" href="#/school">School</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link link-light mx-2" href="#">Projects</a>
+          <a class="nav-link link-light mx-2" href="#/projects">Projects</a>
         </li>
       </ul>
     </div>

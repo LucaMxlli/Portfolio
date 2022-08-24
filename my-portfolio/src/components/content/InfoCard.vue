@@ -37,4 +37,5 @@
   max-width: 64px;
   max-height: 40px;
 }
+
 </style>

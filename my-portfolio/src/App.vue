@@ -1,8 +1,10 @@
 <template>
-  <header-vue></header-vue>
-  <content-view></content-view>
-  <model-view id="model"></model-view>
-  <footer-vue></footer-vue>
+  <div id="">
+    <header-vue></header-vue>
+    <content-view id="project"></content-view>
+    <model-view id="model"></model-view>
+    <footer-vue></footer-vue>
+  </div>
 </template> 
 
 <script>
@@ -17,7 +19,6 @@ export default {
 </script>
 
 <style>
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,6 +28,17 @@ export default {
   margin-top: 60px;
 }
 
-
-
+@keyframes startup {
+  0% {
+    transform: translateY(-40%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+#project{
+  animation: 0.6s ease-in 0s 1 startup;
+}
 </style>
