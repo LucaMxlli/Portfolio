@@ -1,19 +1,17 @@
 <template>
   <div id="">
     <header-vue></header-vue>
-    <content-view id="project"></content-view>
-    <model-view id="model"></model-view>
+    <router-view id="project"></router-view>
     <footer-vue></footer-vue>
   </div>
 </template> 
 
 <script>
-import ModelView from "./components/layouts/ModelView.vue";
+
 import FooterVue from "./components/layouts/FooterVue.vue";
-import ContentView from "./components/content/ContentView.vue";
 
 export default {
-  components: { ModelView, FooterVue, ContentView },
+  components: { FooterVue },
   name: "App",
 };
 </script>
@@ -26,6 +24,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  background-color: #0F111A;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @keyframes startup {

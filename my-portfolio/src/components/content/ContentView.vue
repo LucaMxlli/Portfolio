@@ -3,9 +3,11 @@
     <div class="container">
       <p id="name" class="pb-3">Hello there!, I'm Luca</p>
       <img src="../../assets/star-wars-g133253602_1920.png" id="lightsaber" />
+        <about-me></about-me>
     </div>
-    <about-me></about-me>
+ 
  </div>
+ 
 </template>
 
 <script>

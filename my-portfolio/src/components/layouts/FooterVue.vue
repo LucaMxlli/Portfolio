@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer bottom" id="bg">
+  <footer class="footer bottom fixed-bottom" id="bg">
     <div id="footerText" class="container">
       <span class="text-white">Made with </span>
       <span id="heart" class="text-white">❤</span>

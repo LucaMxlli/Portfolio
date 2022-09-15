@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h3 @mouseover="aler()">🠗 Some information about me 🠗</h3>
-    <div v-if="isActive" id="aboutMe" class="container pt-4">
+    <h3 @mouseenter="visible()">🠗 Some information about me 🠗</h3>
+    <div :class="{ invisible: !isActive}" id="aboutMe" class="container pt-4">
       <info-card></info-card>
     </div>
   </div>
@@ -19,7 +19,7 @@ export default {
   },
 
   methods: {
-    aler: function () {
+    visible: function () {
       this.isActive = true;
     },
   },
