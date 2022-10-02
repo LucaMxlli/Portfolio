@@ -1,5 +1,5 @@
 <template>
-  <div id="card">
+  <div id="infoCard">
     <div class="container p-3" id="infos">
       <ul id="list">
         <li>I attend to HTBLA Kaindorf</li>
@@ -20,7 +20,7 @@
 </template>
 
 <style>
-#card {
+#infoCard {
   background-color: black;
   margin-left: 30%;
   margin-right: 30%;

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <p id="name" class="pb-3">Hello there!, I'm Luca</p>
+      <h6 id="name" class="pb-3 h6">Hello there!, I'm Luca</h6>
       <img src="../../assets/star-wars-g133253602_1920.png" id="lightsaber" />
         <about-me></about-me>
     </div>
@@ -30,13 +30,14 @@ export default {
 #name:hover {
   color: aquamarine;
 }
+
+
 li {
   color: white;
 }
 #lightsaber {
   width: 100%;
-  max-width: 800px;
-  max-height: 500px;
+  height: 100%;
   position: relative;
 }
 </style>
