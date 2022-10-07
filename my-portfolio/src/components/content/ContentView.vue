@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container">
+    <div class="container-xl">
       <h6 id="name" class="pb-3 h6">Hello there!, I'm Luca</h6>
       <img src="../../assets/star-wars-g133253602_1920.png" id="lightsaber" />
         <about-me></about-me>
@@ -35,9 +35,18 @@ export default {
 li {
   color: white;
 }
+
 #lightsaber {
   width: 100%;
   height: 100%;
   position: relative;
 }
+
+@media (max-width: 820px){
+  #lightsaber{
+    visibility: hidden !important;
+  }
+}
+
+
 </style>
