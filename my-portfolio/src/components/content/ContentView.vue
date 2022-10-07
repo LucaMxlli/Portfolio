@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="container-xl">
-      <h6 id="name" class="pb-3 h6">Hello there!, I'm Luca</h6>
-      <img src="../../assets/star-wars-g133253602_1920.png" id="lightsaber" />
+      <h6 id="name" class="pb-3 pt-5 h6">Hello there!, I'm Luca</h6>
+      <img src="../../assets/star-wars-g133253602_1920.png" class="pt-4" id="lightsaber" />
         <about-me></about-me>
     </div>
  
